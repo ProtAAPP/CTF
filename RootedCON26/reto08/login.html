@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProtAAP [Sec Mode RootedCON] - Acceso remoto</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 80vh;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        img {
+            max-width: 358px;
+            margin-bottom: 20px;
+        }
+        h3 {
+            color: #000000;
+            margin-bottom: 20px;
+        }    
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input {
+            margin: 5px;
+            padding: 10px;
+            width: 200px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #6a6a6a;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <img src="Logo_PROTAAPP.jpg" alt="ProtAAPP logo">
+    <h3>ACCESO REMOTO</h3>
+<form onsubmit="return _0x91ab(this);">
+    <label>Usuario:</label><br>
+    <input type="text" name="R0otd" required><br><br>
+
+    <label>Contraseña:</label><br>
+    <input type="password" name="Prt4P" required><br><br>
+
+    <input type="submit" value="Iniciar Sesión">
+</form>
+
+<script>
+(function(){
+
+    function _rot3(s){
+        var r = '';
+        for (var i = 0; i < s.length; i++) {
+            var c = s.charCodeAt(i);
+            if (c >= 32 && c <= 126) {
+                r += String.fromCharCode(((c - 32 - 3 + 95) % 95) + 32);
+            } else {
+                r += s.charAt(i);
+            }
+        }
+        return r;
+    }
+
+    var _0x4d2f = [
+	"xvhu",
+	"def123",
+	"xvxdulr",
+        "dgplq",
+	"tzhuwb",
+	"UrrwhgFRQ",
+        "Wu7fn1SurwDDSS",
+        "vxffhvv1kwpo",
+	"sdvvzrug",
+	"QrPruhVhfuhwv",
+        "Xvxdulr#r#Sdvvzrug#lqfruhfwrv.#Suxhed#gh#qxhyr",
+	"vhfuhw"
+    ];
+
+    window._0x91ab = function(f){
+        var R0otd = f.R0otd.value;
+        var Prt4P = f.Prt4P.value;
+
+        if (
+            R0otd === _rot3(_0x4d2f[3]) &&
+            Prt4P === _rot3(_0x4d2f[6])
+        ) {
+            window.location = _rot3(_0x4d2f[7]);
+        } else {
+            alert(_rot3(_0x4d2f[10]));
+        }
+        return false;
+    };
+
+})();
+</script>
+
+</body>
+</html>
