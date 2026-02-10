@@ -21,7 +21,7 @@
         h3 {
             color: #000000;
             margin-bottom: 20px;
-        }    
+        }
         form {
             display: flex;
             flex-direction: column;
@@ -48,6 +48,7 @@
 <body>
     <img src="Logo_PROTAAPP.jpg" alt="ProtAAPP logo">
     <h3>ACCESO REMOTO</h3>
+
 <form onsubmit="return _0x91ab(this);">
     <label>Usuario:</label><br>
     <input type="text" name="R0otd" required><br><br>
@@ -75,19 +76,22 @@
     }
 
     var _0x4d2f = [
-	"xvhu",
-	"def123",
-	"xvxdulr",
+        "xvhu",
+        "def123",
+        "xvxdulr",
         "dgplq",
-	"tzhuwb",
-	"UrrwhgFRQ",
-        "Wu7fn1SurwDDSS",
+        "tzhuwb",
+        "UrrwhgFRQ",
+        "Wu7fnSurwDDSS",
         "vxffhvv1kwpo",
-	"sdvvzrug",
-	"QrPruhVhfuhwv",
+        "sdvvzrug",
+        "QrPruhVhfuhwv",
         "Xvxdulr#r#Sdvvzrug#lqfruhfwrv.#Suxhed#gh#qxhyr",
-	"vhfuhw"
+        "vhfuhw"
     ];
+
+    var _pw_ok = _rot3(_0x4d2f[6]);
+    var _kparam = "k=" + encodeURIComponent(_pw_ok);
 
     window._0x91ab = function(f){
         var R0otd = f.R0otd.value;
@@ -95,9 +99,10 @@
 
         if (
             R0otd === _rot3(_0x4d2f[3]) &&
-            Prt4P === _rot3(_0x4d2f[6])
+            Prt4P === _pw_ok
         ) {
-            window.location = _rot3(_0x4d2f[7]);
+            var base = _rot3(_0x4d2f[7]);
+            window.location = base + "?" + _kparam;
         } else {
             alert(_rot3(_0x4d2f[10]));
         }
