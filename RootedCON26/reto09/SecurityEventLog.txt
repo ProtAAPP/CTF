@@ -1,0 +1,30 @@
+2025-09-01 09:42:11 UTC DC01 Security 4624 Logon Success user=svc_backup domain=rooted.com logonType=3 src=192.168.7.10
+2025-09-01 09:44:02 UTC DC01 Security 4634 Logoff user=svc_backup
+2025-09-01 09:46:55 UTC DC01 Security 4768 Kerberos TGT requested user=printer01$
+2025-09-01 09:48:01 UTC DC01 Security 4769 Kerberos service ticket user=printer01$
+2025-09-01 09:50:22 UTC DC01 Security 4624 Logon Success user=ana domain=rooted.com logonType=3 src=192.168.7.44
+2025-09-01 09:52:18 UTC DC01 Security 4634 Logoff user=ana
+2025-09-01 09:54:39 UTC DC01 Security 4776 NTLM auth user=backupsvc status=0x0
+2025-09-01 09:56:03 UTC DC01 Security 4625 Logon Failed user=willy src=192.168.7.126 status=0xC000006A
+2025-09-01 09:57:55 UTC DC01 Security 4625 Logon Failed user=willy src=192.168.7.126 status=0xC000006A
+2025-09-01 09:59:12 UTC DC01 Security 4768 Kerberos TGT requested user=willy
+2025-09-01 10:00:05 UTC DC01 Security 4624 Logon Success user=willy domain=rooted.com logonType=2 workstation=rooted17 src=192.168.7.126
+2025-09-01 10:00:05 UTC DC01 Security 4672 Special privileges assigned user=willy
+2025-09-01 10:00:07 UTC DC01 Security 4769 Kerberos service ticket user=willy service=cifs/rooted17
+2025-09-01 10:01:33 UTC DC01 Security 5140 Share accessed \\rooted17\C$
+2025-09-01 10:03:21 UTC DC01 Security 4624 Logon Success user=svc_inventory logonType=3 src=192.168.7.20
+2025-09-01 10:04:09 UTC DC01 Security 4634 Logoff user=svc_inventory
+2025-09-01 10:05:44 UTC DC01 Security 4769 Kerberos service ticket user=willy service=HTTP/intranet
+2025-09-01 10:07:18 UTC DC01 Security 5145 File read \\rooted17\C$\Users\willy\Documents
+2025-09-01 10:09:02 UTC DC01 Security 4776 NTLM auth user=willy status=0x0
+2025-09-01 10:10:55 UTC DC01 Security 4768 Kerberos TGT requested user=luis
+2025-09-01 10:12:11 UTC DC01 Security 4624 Logon Success user=luis src=192.168.7.88
+2025-09-01 10:14:33 UTC DC01 Security 4634 Logoff user=luis
+2025-09-01 10:16:40 UTC DC01 Security 4769 Kerberos service ticket user=willy service=LDAP/DC01
+2025-09-01 10:18:22 UTC DC01 Security 5140 Share accessed \\DC01\SYSVOL
+2025-09-01 10:19:01 UTC DC01 Security 4634 Logoff user=willy
+2025-09-01 10:21:45 UTC DC01 Security 4624 Logon Success user=monitor logonType=3 src=192.168.7.5
+2025-09-01 10:23:02 UTC DC01 Security 4634 Logoff user=monitor
+2025-09-01 10:24:17 UTC DC01 Security 4768 Kerberos TGT requested user=willy
+2025-09-01 10:24:18 UTC DC01 Security 4624 Logon Success user=willy logonType=3 src=192.168.7.126
+2025-09-01 10:26:02 UTC DC01 Security 4634 Logoff user=willy
