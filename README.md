@@ -1,6 +1,6 @@
 # ProtAAPP CTF @ RootedCON
 
-Este repositorio contiene los ficheros de apoyo utilizados en los retos del concurso **CTF (Capture The Flag)** organizado por **ProtAAPP** para su track en **RootedCON**.
+Este repositorio contiene el enunciado y los ficheros de apoyo utilizados en los retos del concurso **CTF (Capture The Flag)** organizado por **ProtAAPP** para su track en **RootedCON**.
 
 El objetivo del concurso es dinamizar el track de ProtAAPP, fomentar la participación de la comunidad y proponer pequeños retos técnicos relacionados con la ciberseguridad y el hacking en un formato divertido.
 
