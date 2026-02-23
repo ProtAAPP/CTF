@@ -12,4 +12,10 @@ Cuando vayas resolviendo los retos, envía tus respuestas a través del siguient
 
 ---
 
+Recuerda echar un vistazo a las bases, ahí se explica la dinámica del concurso y los premios que puedes ganar:
+
+📓 [Bases del concurso](https://github.com/ProtAAPP/CTF/blob/master/RootedCON26/Bases%20del%20Concurso%20CTF.pdf)
+
+---
+
 ¡Buena suerte y disfruta del CTF! 🚩
