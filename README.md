@@ -22,7 +22,6 @@ Las bases completas del concurso (mecánica, fases, puntuación y premios) se pu
 
 - Cada carpeta anual contiene **únicamente** los ficheros correspondientes a esa edición del concurso.
 - Los retos podrán organizarse en subcarpetas (`reto01`, `reto02`, etc.) o directamente en la carpeta del año correspondiente, según las necesidades.
-- Los ficheros aquí incluidos **no contienen las soluciones a los retos**.
 
 ## NOTA
 
